@@ -1,38 +1,450 @@
-.App {
+html,
+body {
+  overflow-x: clip;
+  overflow-y: visible;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+
+#banner_1 {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 200px;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+}
+
+.banner_1_child_1 {
+  display: inline-block;
+  font-style: italic;
+  color: rgb(219, 17, 17);
+  text-decoration-line: underline;
+  width: 20%;
+  top: 30px;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.banner_1_child_2 {
+  display: inline-block;
+  width: 20%;
+  right: 20%;
+  top: 30px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.banner_1_child_3 {
+  display: inline-block;
+  width: 20%;
+  right: 20%;
+  top: 30px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+.banner_1_child_4 {
+  display: inline-block;
+  width: 20%;
+  right: 20%;
+  top: 30px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  font-size: larger;
+}
+
+#banner_parent_2 {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 80px;
+  background-color: #18548c;
+  text-align: center;
+  display: inline-block;
+}
+
+#banner_parent_3 {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 20px;
+  background-color: rgb(178, 201, 212);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#banner_light_blue {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 20px;
+  background-color: #186cb4;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#banner_dark_blue {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 20px;
+  background-color: #18548c;
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+#banner_dark_gray {
+  position: relative;
+  width: 100%;
+  left: 0%;
+  height: 20px;
+  background-color: rgb(56, 52, 52);
+  text-align: center;
+}
+
+.banner_2_child_1 {
+  display: inline-block;
+  width: 20%;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+}
+
+.test-box {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.main_content {
+  background-color: rgb(178, 201, 212);
+}
+
+.button-44 {
+  background: #186cb4;
+  border-radius: 11px;
+  border-color: rgb(56, 52, 52);
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Mija, -apple-system, BlinkMacSystemFont, Roboto, "Roboto Slab",
+    "Droid Serif", "Segoe UI", system-ui, Arial, sans-serif;
+  font-size: 1.15em;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0.8em 1em;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+  text-underline-offset: 1px;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 20%;
+  word-break: break-word;
+  border: 0;
+}
+
+.button-44:active,
+.button-44:focus {
+  border-bottom-style: none;
+  border-color: #dadada;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px inset;
+  outline: 0;
+}
+
+.button-44:hover {
+  border-bottom-style: none;
+  border-color: #dadada;
+}
+
+.column {
+  display: inline-block;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.quote {
+  display: inline-block;
+  text-align: center;
+  font-size: large;
+  width: 100%;
+  margin-left: 0%;
+  background-color: #186cb4;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.home {
+  display: inline-block;
+  width: 100%;
+  margin-left: 0%;
+  text-align: center;
+  background-color: #186cb4;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.card {
+  background-color: #186cb4;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.leftcolumn {
+  font-size: larger;
+  display: inline-block;
+  left: 20%;
+  width: 50%;
+}
+
+.rightcolumn {
+  float: right;
+  width: 25%;
+  background-color: #186cb4;
+  padding-left: 0px;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.gallery {
+  background-color: #186cb4;
+  text-align: center;
+  color: white;
+}
+
+.resizedTextbox {
+  width: 50%;
+  height: 20px;
+}
+
+.portrait_pictures_container {
+  background-color: #186cb4;
+}
+
+.portrait_pictures {
+  width: 45%;
+  margin-left: 27.5%;
+  border-width: 10px;
+  border-color: black;
+  background-color: #186cb4;
+}
+
+.portrait {
+  background-color: rgb(178, 201, 212);
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  #banner_1 {
+    background-color: rgb(255, 255, 255);
   }
-  to {
-    transform: rotate(360deg);
+
+  .banner_1_child_1 {
+    font-style: italic;
+    color: red;
+    text-decoration-line: underline;
+    text-align: left;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+  }
+
+  .banner_1_child_2 {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    width: 00%;
+    display: none;
+  }
+
+  .banner_1_child_3 {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    width: 00%;
+    display: none;
+  }
+
+  .banner_1_child_4 {
+    background-color: rgb(255, 255, 255);
+    font-size: smaller;
+    width: 100%;
+  }
+
+  #banner_parent_2 {
+    width: 100%;
+    left: 0%;
+    height: 80px;
+    background-color: #18548c;
+    text-align: center;
+  }
+
+  #banner_parent_4 {
+    position: relative;
+    width: 100%;
+    left: 0%;
+    height: 20px;
+    background-color: rgb(48, 102, 202);
+    text-align: center;
+  }
+
+  .banner_child_2 {
+    display: inline-block;
+    width: 30%;
+    height: 80px;
+    text-align: center;
+    font-size: large;
+  }
+
+  .test-box {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+  }
+
+  .main_content {
+    background-color: rgb(178, 201, 212);
+  }
+
+  /* CSS */
+  .button-44 {
+    background: #186cb4;
+    border-radius: 11px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Mija, -apple-system, BlinkMacSystemFont, Roboto, "Roboto Slab",
+      "Droid Serif", "Segoe UI", system-ui, Arial, sans-serif;
+    font-size: 1.15em;
+    font-weight: 700;
+    justify-content: center;
+    line-height: 33.4929px;
+    padding: 0.8em 1em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: rgba(0, 0, 0, 0.3) 1px 1px 1px;
+    text-underline-offset: 1px;
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 33%;
+    word-break: break-word;
+    border: 0;
+  }
+
+  .button-44:active,
+  .button-44:focus {
+    border-bottom-style: none;
+    border-color: #dadada;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 3px 3px inset;
+    outline: 0;
+  }
+
+  .button-44:hover {
+    border-bottom-style: none;
+    border-color: #dadada;
+  }
+
+  .column {
+    display: inline-block;
+  }
+
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+
+  .quote {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    margin-left: 0%;
+    background-color: #186cb4;
+    color: white;
+  }
+
+  .row {
+    display: inline-block;
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+  }
+
+  .card {
+    background-color: #186cb4;
+    left: 20%;
+  }
+
+  .leftcolumn {
+    width: 80%;
+    left: 20%
+  }
+
+  .rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: #186cb4;
+    padding-left: 0px;
+  }
+
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .gallery {
+    background-color: #186cb4;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+  }
+
+  .resizedTextbox {
+    width: 1000px;
+    height: 20px;
+    padding: 1px;
+  }
+
+  .portrait_pictures {
+    text-align: center;
+    width: 100%;
+    margin-left: 0%;
+    border-width: 0px;
+    border-color: black;
+  }
+
+  .portrait {
+    border: white;
+    border-radius: 5px;
+  }
+
+  html,
+  body {
+    overflow-x: clip;
+    overflow-y: visible;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
   }
 }
